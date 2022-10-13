@@ -1,0 +1,81 @@
+node-browserify-des (1.0.2-5) unstable; urgency=medium
+
+  * Team upload
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 11:12:59 +0100
+
+node-browserify-des (1.0.2-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-cipher-base, node-des.js,
+      node-safe-buffer, node-tape and nodejs.
+    + node-browserify-des: Drop versioned constraint on node-cipher-base,
+      node-des.js, node-safe-buffer and nodejs in Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Bastien Roucariès ]
+  * MA: foreign
+  * Rules-Requires-Root: no
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 14 Sep 2021 13:05:23 +0000
+
+node-browserify-des (1.0.2-3) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on node-inherits, node-tap.
+    + node-browserify-des: Drop versioned constraint on node-inherits in
+      Depends.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 29 Aug 2021 01:33:51 +0100
+
+node-browserify-des (1.0.2-2) unstable; urgency=medium
+
+  * Move to /usr/share
+  * Bump debhelper and policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 04 Sep 2019 15:17:46 +0200
+
+node-browserify-des (1.0.2-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 07 Aug 2018 15:18:52 +0200
+
+node-browserify-des (1.0.0+20170220gitde9d4ef4cbb9fd-4) unstable; urgency=medium
+
+  * Move to salsa
+  * Bump policy and compat (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 16 May 2018 16:58:16 +0200
+
+node-browserify-des (1.0.0+20170220gitde9d4ef4cbb9fd-3) unstable; urgency=medium
+
+  * Move to section javascript
+  * Fix lintian warnings
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 09 Nov 2017 13:54:31 +0100
+
+node-browserify-des (1.0.0+20170220gitde9d4ef4cbb9fd-2) unstable; urgency=medium
+
+  * Team upload
+  * Install modes.js
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 03 Jun 2017 21:01:50 +0530
+
+node-browserify-des (1.0.0+20170220gitde9d4ef4cbb9fd-1) unstable; urgency=low
+
+  * Initial release (Closes: #861398)
+  * Package from git master in order to get license file.
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 28 Apr 2017 14:17:11 +0200
