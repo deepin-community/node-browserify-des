@@ -10,7 +10,7 @@ Build-Depends: debhelper-compat (= 13)
  , node-inherits <!nocheck>
  , node-safe-buffer <!nocheck>
  , node-tape <!nocheck>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-browserify-des
 Vcs-Git: https://salsa.debian.org/js-team/node-browserify-des.git
 Homepage: https://github.com/crypto-browserify/browserify-des
